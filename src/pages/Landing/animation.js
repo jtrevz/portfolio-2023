@@ -2,9 +2,9 @@ export default function circleAnimation() {
   const ovals = [];
   for (let i = 0; i < 36; i++) {
     let oval = {};
-    oval.w = `${15 + i}vw`;
+    oval.w = `${12.5 + i}vw`;
     oval.h = `${4 + i / 2}vw`;
-    oval.m = `${10 + i * 6}px 0px 0px ${i * 4}px`;
+    oval.m = `${i * 6}px 0px 0px ${i * 4}px`;
     oval.a = `appearAnimation ${i * 0.3}s forwards`;
 
     if (i % 2 && i > 21) {
@@ -17,6 +17,7 @@ export default function circleAnimation() {
       oval.w = `${15 + i * 0.8}vw`;
       oval.h = `${4 + i / 3}vw`;
     }
+
     ovals.push(oval);
   }
   return ovals;

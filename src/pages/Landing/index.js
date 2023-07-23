@@ -13,7 +13,7 @@ export default function Landing() {
               key={i}
               className="oval"
               style={{
-                width: `${oval.a}`,
+                width: `${oval.w}`,
                 height: `${oval.h}`,
                 margin: `${oval.m}`,
                 animation: `${oval.a}`,

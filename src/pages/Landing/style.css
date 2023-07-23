@@ -1,7 +1,5 @@
 #landing {
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url("../../assets/images/backgrounds/green-gradient.png");
   min-height: 100vh;
   /* background-position: center; */
@@ -12,8 +10,8 @@
 
 /* Oval Animations */
 .oval-container {
-  margin-top: -20px;
-  margin-left: -40px;
+  margin-top: -40px;
+  margin-left: -50px;
 }
 
 .oval {
