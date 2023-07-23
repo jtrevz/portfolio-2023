@@ -6,13 +6,9 @@ import Landing from "./pages/Landing";
 function App() {
   return (
     <Router>
-      <div className="flex-column justify-flex-start min-100-vh">
-        <div className="container">
-          <Routes>
-            <Route path="/" element={<Landing />} />
-          </Routes>
-        </div>
-      </div>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+      </Routes>
     </Router>
   );
 }
