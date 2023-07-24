@@ -1,11 +1,10 @@
 #about {
-  background-image: url(../../assets/images/backgrounds/about-background.png);
+  background-image: url(../../assets/images/backgrounds/Portfolio.png);
   min-height: 100vh;
   background-repeat: no-repeat;
   min-width: 100vw;
+  background-position: 100% 10%;
   background-size: cover;
-  background-position: 25% 5%;
-  min-height: 100vh;
 }
 
 .home-link {
@@ -50,5 +49,17 @@
   }
   .about-text {
     line-height: 1.8;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about-header {
+    font-size: 5vw;
+  }
+  .home-link {
+    font-size: 15px;
+  }
+  .home-link svg {
+    height: 1.2em;
   }
 }
