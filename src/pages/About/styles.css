@@ -26,6 +26,12 @@
   color: var(--darkyellow);
   font-size: 5vw;
 }
+.about-text {
+  color: #eeecde;
+  font-size: 15px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 100;
+}
 
 .btn-warning {
   background-color: var(--darkyellow) !important;
@@ -40,6 +46,9 @@
   }
   .contact-button {
     /* font-size: ; */
-    width: 160px;
+    width: 190px;
+  }
+  .about-text {
+    line-height: 1.8;
   }
 }

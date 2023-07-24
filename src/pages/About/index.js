@@ -24,7 +24,7 @@ export default function About() {
           <h2 className="about-header d-none d-md-block mb-3">
             I'm Jenny Trevizo.
           </h2>
-          <p>
+          <p className="about-text">
             I've always been drawn to math, puzzles, and riddles, enjoying the
             challenge of solving problems and understanding how things work.
             During the pandemic, I revisited HTML and CSS, but it was when I
@@ -38,7 +38,7 @@ export default function About() {
             efficient code and creating solutions that align with clients'
             goals.
           </p>
-          <Button className="btn-md-block contact-button btn-warning align-self-end mx-4">
+          <Button className="btn-md-block contact-button btn-warning align-self-end">
             Contact
           </Button>
         </Col>
