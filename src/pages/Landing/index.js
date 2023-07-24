@@ -9,12 +9,15 @@ import "./style.css";
 
 export default function Landing() {
   const [show, setShow] = useState(false);
+  const [hide, setHide] = useState(false);
 
   const handleClose = () => {
     setShow(false);
+    setHide(false);
   };
   const handleShow = () => {
     setShow(true);
+    setHide(true);
   };
   return (
     <Container fluid id="landing" className="p-0 m-0">
@@ -57,7 +60,9 @@ export default function Landing() {
           <Row className="d-flex w-100">
             <Col className="py-3 px-0 justify-content-end">
               <Button
-                className="btn float-end nav-btn d-lg-none "
+                className={
+                  "btn float-end nav-btn d-lg-none " + (hide ? "hide" : "")
+                }
                 role="button"
                 variant="link"
                 onClick={handleShow}

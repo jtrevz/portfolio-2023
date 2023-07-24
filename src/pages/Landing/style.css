@@ -20,13 +20,19 @@
 }
 
 .offcanvas-backdrop {
-  opacity: 0;
+  opacity: 0 !important;
 }
 
 /* Oval Animations */
 .oval-container {
   margin-top: -40px;
   margin-left: -50px;
+}
+
+/* MAIN */
+
+.hide {
+  visibility: hidden;
 }
 
 .oval {
