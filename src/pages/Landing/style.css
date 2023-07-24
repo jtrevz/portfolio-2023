@@ -1,8 +1,7 @@
 #landing {
-  display: flex;
   background-image: url("../../assets/images/backgrounds/green-gradient.png");
   min-height: 100vh;
-  /* background-position: center; */
+  display: flex;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -34,6 +33,12 @@
 .hide {
   visibility: hidden;
 }
+
+.name-container {
+  min-height: 75vh;
+}
+
+/* Animations */
 
 .oval {
   border-radius: 50%;
