@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import circleAnimation from "./animation";
 import Button from "react-bootstrap/Button";

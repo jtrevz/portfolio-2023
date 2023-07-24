@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 export default function OffNav() {
@@ -8,30 +9,30 @@ export default function OffNav() {
       id="menu"
     >
       <li>
-        <a className="nav-link float-end" href="#">
+        <Link to="/about" className="nav-link float-end" href="#">
           <span className="ms-1 d-sm-inline px-0">ABOUT</span>
-        </a>
+        </Link>
       </li>
       <li>
-        <a className="nav-link text-truncate">
+        <Link className="nav-link text-truncate">
           <span className="ms-1 d-sm-inline">EXPERIENCE</span>
-        </a>
+        </Link>
       </li>
       <li>
-        <a className="nav-link text-truncate">
+        <Link className="nav-link text-truncate">
           <span className="ms-1 d-sm-inline">WORK</span>
-        </a>
+        </Link>
       </li>
 
       <li>
-        <a className="nav-link text-truncate">
+        <Link className="nav-link text-truncate">
           <span className="ms-1 d-sm-inline">RESUME</span>
-        </a>
+        </Link>
       </li>
       <li>
-        <a className="nav-link text-truncate">
+        <Link className="nav-link text-truncate">
           <span className="ms-1 d-sm-inline">CONTACT</span>
-        </a>
+        </Link>
       </li>
     </ul>
   );
