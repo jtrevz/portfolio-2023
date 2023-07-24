@@ -1,4 +1,45 @@
 #about {
-  min-width: 100vw;
+  background-image: url(../../assets/images/backgrounds/about-background.png);
   min-height: 100vh;
+  background-repeat: no-repeat;
+  min-width: 100vw;
+  background-size: cover;
+  background-position: 25% 5%;
+  min-height: 100vh;
+}
+
+.home-link {
+  font-family: "Tenor Sans";
+  color: var(--darkyellow);
+  text-transform: uppercase;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.about-content {
+  min-height: 75vh;
+}
+
+.about-header {
+  font-family: "Tenor Sans";
+  text-transform: uppercase;
+  color: var(--darkyellow);
+  font-size: 5vw;
+}
+
+.btn-warning {
+  background-color: var(--darkyellow) !important;
+  border-radius: 0px !important;
+  font-family: "Tenor Sans" !important;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .about-header {
+    font-size: 3.4vw;
+  }
+  .contact-button {
+    /* font-size: ; */
+    width: 160px;
+  }
 }
