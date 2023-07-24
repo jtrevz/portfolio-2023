@@ -15,6 +15,14 @@
   background-color: transparent !important;
 }
 
+.nav-btn {
+  color: var(--yellow) !important;
+}
+
+.offcanvas-backdrop {
+  opacity: 0;
+}
+
 /* Oval Animations */
 .oval-container {
   margin-top: -40px;

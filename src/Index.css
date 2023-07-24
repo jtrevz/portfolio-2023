@@ -5,3 +5,7 @@ html {
   margin: 0;
   overflow: auto;
 }
+
+:root {
+  --yellow: #cbb768;
+}

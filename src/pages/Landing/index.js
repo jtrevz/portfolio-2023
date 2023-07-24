@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import circleAnimation from "./animation";
 import Button from "react-bootstrap/Button";
@@ -10,8 +10,12 @@ import "./style.css";
 export default function Landing() {
   const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const handleClose = () => {
+    setShow(false);
+  };
+  const handleShow = () => {
+    setShow(true);
+  };
   return (
     <Container fluid id="landing" className="p-0 m-0">
       <Row className="w-100 container-fluid">
@@ -33,7 +37,7 @@ export default function Landing() {
       </Row>
       <Row>
         <Offcanvas
-          className="offcanvas-end w-50 px-0 nav-back pt-2 d-lg-none"
+          className="offcanvas-end w-50 nav-back px-0 pt-2 d-lg-none"
           placement="end"
           scroll="show"
           backdrop="false"
@@ -53,7 +57,7 @@ export default function Landing() {
           <Row className="d-flex w-100">
             <Col className="py-3 px-0 justify-content-end">
               <Button
-                className="btn float-end nav-back d-lg-none"
+                className="btn float-end nav-btn d-lg-none "
                 role="button"
                 variant="link"
                 onClick={handleShow}

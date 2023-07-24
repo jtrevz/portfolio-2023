@@ -1,11 +1,11 @@
 .nav-link {
-  color: black;
+  color: black !important;
   font-family: "Tenor Sans";
 }
 
 .nav-link:hover {
   text-decoration: overline;
-  color: #cbb768;
+  color: #cbb768 !important;
   cursor: pointer;
   text-transform: uppercase;
 }
