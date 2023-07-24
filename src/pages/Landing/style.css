@@ -8,6 +8,13 @@
   background-position: center bottom;
 }
 
+/* NAV*/
+
+.nav-back {
+  border: none !important;
+  background-color: transparent !important;
+}
+
 /* Oval Animations */
 .oval-container {
   margin-top: -40px;
