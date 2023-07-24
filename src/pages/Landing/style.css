@@ -38,6 +38,19 @@
   min-height: 75vh;
 }
 
+.profession {
+  font-family: "Tenor Sans";
+  font-size: large;
+  text-transform: uppercase;
+}
+
+.full-name h1 {
+  font-family: "Dream Avenue";
+  font-size: 8.5vw !important;
+  color: #cbb768;
+  text-transform: uppercase;
+}
+
 /* Animations */
 
 .oval {

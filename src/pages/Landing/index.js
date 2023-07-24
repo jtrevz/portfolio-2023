@@ -86,7 +86,7 @@ export default function Landing() {
               Web Designer
             </h4>
           </div>
-          <div className="text-end px-4">
+          <div className="text-end px-4 full-name ">
             <h1>Jennifer Trevizo</h1>
           </div>
         </Container>
