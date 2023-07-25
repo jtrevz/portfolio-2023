@@ -9,7 +9,9 @@ export default function MainNav() {
         <Link to="about" className="nav-link px-2" href="/about.html">
           ABOUT
         </Link>
-        <Link className="nav-link px-2">EXPERIENCE</Link>
+        <Link to="/experience" className="nav-link px-2">
+          EXPERIENCE
+        </Link>
         <Link className="nav-link px-2">RESUME</Link>
         <Link className="nav-link px-2">CONTACT</Link>
         <Link className="nav-link px-2">WORK</Link>
