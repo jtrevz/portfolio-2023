@@ -147,7 +147,7 @@ export default function About() {
                   </Col>
                 </Row>
                 <Row className="d-flex justify-content-end">
-                  <Button className="d-block btn-warning contact-button my-3 mx-md-4">
+                  <Button className="d-block btn-warning resume-button my-3 mx-md-4">
                     Resume
                   </Button>
                 </Row>
