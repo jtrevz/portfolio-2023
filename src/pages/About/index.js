@@ -1,8 +1,7 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import UpRight from "../../assets/icons/up-right";
+import HomeButton from "../../components/HomeButton";
 import "./styles.css";
 
 export default function About() {
@@ -10,14 +9,7 @@ export default function About() {
     <Parallax id="about" pages={2.5}>
       <ParallaxLayer factor={0.5}>
         <Container fluid>
-          <Row className="f-row d-flex justify-content-end align-items-center pt-2 pt-4 p-sm-4 mb-5 mb-sm-0">
-            <Link className="text-end home-link" to="/">
-              Home
-              <span className="p-1 p-sm-2">
-                <UpRight />
-              </span>
-            </Link>
-          </Row>
+          <HomeButton />
           <Row className="d-flex justify-content-center align-items-end mx-sm-5 mx-3 about-content">
             <h2 className="about-header d-block d-md-none">
               {" "}

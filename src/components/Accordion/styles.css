@@ -1,0 +1,30 @@
+#accordion {
+  max-width: 55vw;
+  color: white;
+}
+
+.accordion-name {
+  color: var(--yellow);
+  font-family: "Tenor Sans";
+  text-transform: uppercase;
+  font-size: 3vw !important;
+}
+
+.type {
+  font-family: "Tenor Sans";
+  font-size: 1.7vw;
+}
+
+.accordion-desc {
+  font-family: "DM Sans", sans-serif;
+}
+
+.site-links {
+  font-family: "Tenor Sans";
+  font-size: 1.5vw;
+  color: var(--darkyellow);
+}
+
+.controller {
+  font-size: 3vw !important;
+}
