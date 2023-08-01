@@ -11,7 +11,7 @@
   font-family: "Tenor Sans";
   text-transform: uppercase;
   font-size: 6vw !important;
-  color: var(--yellow);
+  color: var(--darkyellow);
 }
 
 .project-title {
@@ -26,8 +26,4 @@
   font-family: "Tenor Sans";
   text-transform: uppercase;
   font-size: 2vw;
-}
-
-.light-border {
-  border-top: 1px solid white;
 }
