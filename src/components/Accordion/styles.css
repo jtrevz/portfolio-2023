@@ -7,7 +7,7 @@
   color: var(--yellow);
   font-family: "Tenor Sans";
   text-transform: uppercase;
-  font-size: 3.5vw !important;
+  font-size: 18px !important;
 }
 
 .accordion-name-box:hover {
@@ -16,11 +16,16 @@
 
 .type {
   font-family: "Tenor Sans";
-  font-size: 2.2vw;
+  font-size: 14px;
 }
 
 .accordion-desc {
   font-family: "DM Sans", sans-serif;
+}
+
+.accordion-item {
+  overflow: hidden;
+  max-height: "70px";
 }
 
 .desc-text {
@@ -33,14 +38,14 @@
   font-size: 1.5vw;
   color: var(--darkyellow);
 }
-
-.controller {
-  font-size: 3vw !important;
+.chevron-icon {
+  transition: 0.2s ease-in-out;
+  transform-origin: center;
 }
 
 @media screen and (min-width: 768px) {
   .accordion-name {
-    font-size: 3vw !important;
+    font-size: 25px !important;
   }
   #accordion {
     max-width: 55vw;
@@ -49,7 +54,7 @@
 
   .type {
     font-family: "Tenor Sans";
-    font-size: 1.7vw;
+    font-size: 16px;
   }
   .desc-text {
     font-size: 1rem;

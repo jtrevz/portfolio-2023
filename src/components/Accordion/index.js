@@ -6,8 +6,6 @@ import AccordionItem from "./AccordionItem";
 import "./styles.css";
 
 export default function Accordion() {
-  const [active, setActive] = useState(false);
-
   return (
     <div id="accordion">
       {ProjectData.map((project) => (
