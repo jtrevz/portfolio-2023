@@ -14,6 +14,16 @@ export default function AccordionItem({ name, type, description, tech }) {
     config: { duration: "300" },
   });
 
+  const iconAnimation = useSpring({
+    from: {
+      transform: "rotate(0deg)",
+    },
+    to: {
+      transform: active ? "rotate(180deg)" : "rotate(0deg)",
+    },
+    config: { duration: "120" },
+  });
+
   return (
     <animated.div
       className="accordion-item border-top border-bottom py-md-3 py-4 px-1"
@@ -26,8 +36,13 @@ export default function AccordionItem({ name, type, description, tech }) {
       >
         <div className="col accordion-name">{name}</div>
         <div className="col type">{type}</div>
-        <div className="col-1 controller">
-          <ChevronDown className="chevron-icon" />
+        <div className="col-1">
+          <animated.i
+            className="d-inline-block chevron-icon"
+            style={iconAnimation}
+          >
+            <ChevronDown />
+          </animated.i>
         </div>
       </div>
 
