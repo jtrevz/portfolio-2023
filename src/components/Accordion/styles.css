@@ -1,5 +1,5 @@
 #accordion {
-  max-width: 55vw;
+  max-width: 80vw;
   color: white;
 }
 
@@ -7,16 +7,25 @@
   color: var(--yellow);
   font-family: "Tenor Sans";
   text-transform: uppercase;
-  font-size: 3vw !important;
+  font-size: 3.5vw !important;
+}
+
+.accordion-name-box:hover {
+  cursor: pointer;
 }
 
 .type {
   font-family: "Tenor Sans";
-  font-size: 1.7vw;
+  font-size: 2.2vw;
 }
 
 .accordion-desc {
   font-family: "DM Sans", sans-serif;
+}
+
+.desc-text {
+  font-size: 2.4vw;
+  font-weight: 100;
 }
 
 .site-links {
@@ -27,4 +36,22 @@
 
 .controller {
   font-size: 3vw !important;
+}
+
+@media screen and (min-width: 768px) {
+  .accordion-name {
+    font-size: 3vw !important;
+  }
+  #accordion {
+    max-width: 55vw;
+    color: white;
+  }
+
+  .type {
+    font-family: "Tenor Sans";
+    font-size: 1.7vw;
+  }
+  .desc-text {
+    font-size: 1rem;
+  }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import UpRight from "../assets/icons/up-right";
+import { ArrowUpRight } from "react-bootstrap-icons";
 
 export default function HomeButton() {
   return (
@@ -9,7 +9,7 @@ export default function HomeButton() {
       <Link className="text-end home-link" to="/">
         Home
         <span className="p-1 p-sm-2">
-          <UpRight />
+          <ArrowUpRight />
         </span>
       </Link>
     </Row>

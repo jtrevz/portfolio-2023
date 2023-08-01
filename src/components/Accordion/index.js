@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import UpRight from "../../assets/icons/up-right";
+import { ArrowUpRight } from "react-bootstrap-icons";
+
 import "./styles.css";
 
 const ProjectData = {
@@ -29,22 +30,22 @@ export default function Accordion() {
         {active && (
           <div className="accordion-desc container-fluid px-0 mt-3">
             <div className="d-flex flex-row">
-              <div className="col-7">{description}</div>
+              <div className="col-7 desc-text">{description}</div>
               <div className="col">picture</div>
             </div>
             <div className="d-flex flex-row pt-3">
-              <div className="col-7">{tech}</div>
+              <div className="col-7 desc-text">{tech}</div>
               <div className="col d-flex flex-row justify-content-end px-2">
                 <div className="px-2 site-links">
-                  Github
+                  Github{" "}
                   <span>
-                    <UpRight />
+                    <ArrowUpRight />
                   </span>
                 </div>
                 <div className="px-2 site-links">
                   Livesite{" "}
                   <span>
-                    <UpRight />
+                    <ArrowUpRight />
                   </span>
                 </div>
               </div>
