@@ -1,10 +1,24 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React, { useState } from "react";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import List from "../../assets/icons/list";
+import OffNav from "../../components/OffNav";
+import { Offcanvas } from "react-bootstrap";
 import ContactNav from "../../components/ContactNav";
 import { Github, Linkedin, Pinterest } from "react-bootstrap-icons";
 import "./styles.css";
 
 export default function Contact() {
+  const [show, setShow] = useState(false);
+  const [hide, setHide] = useState(false);
+
+  const handleClose = () => {
+    setShow(false);
+    setHide(false);
+  };
+  const handleShow = () => {
+    setShow(true);
+    setHide(true);
+  };
   return (
     <Container fluid id="contact" className="">
       <Row className="d-flex m-0 pt-3 pt-xxl-4">
@@ -13,6 +27,33 @@ export default function Contact() {
         </Col>
         <Col>
           <ContactNav />
+          <Button
+            className={
+              "btn float-end nav-btn d-lg-none " + (hide ? "hide" : "")
+            }
+            role="button"
+            variant="link"
+            onClick={handleShow}
+          >
+            <List />
+          </Button>
+          <Offcanvas
+            className="offcanvas-end w-50 nav-back px-0 pt-2 d-lg-none"
+            placement="end"
+            scroll="show"
+            backdrop="false"
+            show={show}
+            onHide={handleClose}
+            id="offcanvas"
+          >
+            <Offcanvas.Header
+              className="d-flex justify-content-end"
+              closeButton
+            ></Offcanvas.Header>
+            <Offcanvas.Body className="px-0">
+              <OffNav></OffNav>
+            </Offcanvas.Body>
+          </Offcanvas>
         </Col>
       </Row>
       <Row className="px-xxl-4">
