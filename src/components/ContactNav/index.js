@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import resume from "../../assets/info/JTrevizoResume(June)1.pdf";
 
 export default function ContactNav() {
   return (
@@ -13,9 +14,14 @@ export default function ContactNav() {
       <Link to="/work" className="nav-link px-2">
         WORK
       </Link>
-      <Link to="/resume" className="nav-link px-2">
+      <a
+        href={resume}
+        rel="noreferrer"
+        target="_blank"
+        className="nav-link px-2"
+      >
         RESUME
-      </Link>
+      </a>
     </nav>
   );
 }
