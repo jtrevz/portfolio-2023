@@ -35,7 +35,7 @@ export default function AccordionItem({ name, type, description, tech }) {
         onClick={() => setActive(!active)}
       >
         <div className="col accordion-name">{name}</div>
-        <div className="col type">{type}</div>
+        <div className="col type desc">{type}</div>
         <div className="col-1">
           <animated.i
             className="d-inline-block chevron-icon"
@@ -47,13 +47,13 @@ export default function AccordionItem({ name, type, description, tech }) {
       </div>
 
       <div className="accordion-desc container-fluid px-0 mt-3">
-        <div className="d-flex flex-row">
-          <div className="col-7 desc-text">{description}</div>
-          <div className="col">picture</div>
+        <div className="d-flex flex-column-reverse flex-md-row">
+          <div className="col-12 col-md-7 desc-text">{description}</div>
+          <div className="col-12 col-md-3">picture</div>
         </div>
-        <div className="d-flex flex-row pt-3">
-          <div className="col-7 desc-text">{tech}</div>
-          <div className="col d-flex flex-row justify-content-end px-2">
+        <div className="d-flex flex-column flex-md-row pt-3">
+          <div className="col-12 col-md-7 desc-text">{tech}</div>
+          <div className="col d-flex flex-row justify-content-end px-2 pt-3 pt-md-0">
             <div className="px-2 site-links">
               Github{" "}
               <span>
@@ -61,7 +61,7 @@ export default function AccordionItem({ name, type, description, tech }) {
               </span>
             </div>
             <div className="px-2 site-links">
-              Livesite{" "}
+              Live Site{" "}
               <span>
                 <ArrowUpRight />
               </span>

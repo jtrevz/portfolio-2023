@@ -63,6 +63,12 @@
   opacity: 0;
 }
 
+@media screen and (max-width: 576px) {
+  .profession {
+    font-size: medium;
+  }
+}
+
 @keyframes appearAnimation {
   0% {
     opacity: 0;

@@ -37,6 +37,10 @@
   font-weight: 100;
 }
 
+.desc {
+  opacity: 0.75 !important;
+}
+
 .site-links {
   font-family: "Tenor Sans";
   font-size: 1.5vw;
@@ -63,5 +67,24 @@
   }
   .desc-text {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .type {
+    font-family: "Tenor Sans";
+    font-size: 10px;
+  }
+
+  .desc-text {
+    font-size: 12px;
+  }
+
+  .site-links {
+    font-size: 12px;
+  }
+
+  .desc {
+    padding-left: 6px;
   }
 }
