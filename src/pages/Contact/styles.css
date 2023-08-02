@@ -1,0 +1,49 @@
+#contact {
+  background-image: url("../../assets/images/backgrounds/green-gradient.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-name {
+  font-family: Tenor Sans;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.contact-heading {
+  font-family: "Dream Avenue";
+  font-size: 5rem !important;
+  color: var(--yellow);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.social-groups {
+  color: #eeecde;
+}
+
+.social-groups h4 {
+  font-family: Tenor Sans;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  padding-bottom: 3px;
+}
+
+.soc-links a {
+  color: var(--bs-heading-color);
+  font-family: "Tenor Sans";
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.soc-links a:hover {
+  text-decoration: overline;
+  color: #cbb768;
+  cursor: pointer;
+}

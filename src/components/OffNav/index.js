@@ -25,7 +25,7 @@ export default function OffNav() {
         </Link>
       </li>
       <li>
-        <Link className="nav-link text-truncate">
+        <Link to="/contact" className="nav-link text-truncate">
           <span className="ms-1 d-sm-inline">CONTACT</span>
         </Link>
       </li>

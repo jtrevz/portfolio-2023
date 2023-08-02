@@ -5,6 +5,7 @@ import { ParallaxProvider } from "react-scroll-parallax";
 import Landing from "./pages/Landing";
 import About from "./pages/About";
 import Work from "./pages/Work";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/about" element={<About />} />
           <Route path="/work" element={<Work />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </ParallaxProvider>

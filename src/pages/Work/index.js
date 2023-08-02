@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import HomeButton from "../../components/HomeButton";
 import Accordion from "../../components/Accordion/";
 
