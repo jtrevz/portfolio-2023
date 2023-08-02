@@ -16,6 +16,7 @@
   font-size: 5rem !important;
   color: var(--yellow);
   text-transform: uppercase;
+  line-height: 100%;
   letter-spacing: 1px;
 }
 
@@ -46,4 +47,29 @@
   text-decoration: overline;
   color: #cbb768;
   cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .contact-name {
+    font-size: 0.9rem;
+  }
+  .contact-heading {
+    font-size: 3.5rem !important;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contact-name {
+    font-size: 1.4rem;
+  }
+  .contact-heading {
+    font-size: 6.5rem !important;
+  }
+  .social-groups h4 {
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+  }
+  .soc-links a {
+    font-size: 1.2rem;
+  }
 }
