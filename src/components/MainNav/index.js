@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import resume from "../../assets/info/JTrevizoResume(June)1.pdf";
 import "./styles.css";
 
 export default function MainNav() {
@@ -15,9 +16,15 @@ export default function MainNav() {
         <Link to="/resume" className="nav-link px-2">
           RESUME
         </Link>
-        <Link to="/contact" className="nav-link px-2">
-          CONTACT
-        </Link>
+
+        <a
+          href={resume}
+          rel="noreferrer"
+          target="_blank"
+          className="nav-link px-2"
+        >
+          RESUME
+        </a>
       </nav>
     </div>
   );
