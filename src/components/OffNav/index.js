@@ -20,7 +20,7 @@ export default function OffNav() {
       </li>
 
       <li>
-        <Link className="nav-link text-truncate">
+        <Link to="/resume" className="nav-link text-truncate">
           <span className="ms-1 d-sm-inline">RESUME</span>
         </Link>
       </li>

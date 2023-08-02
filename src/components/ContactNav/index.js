@@ -13,7 +13,9 @@ export default function ContactNav() {
       <Link to="/work" className="nav-link px-2">
         WORK
       </Link>
-      <Link className="nav-link px-2">RESUME</Link>
+      <Link to="/resume" className="nav-link px-2">
+        RESUME
+      </Link>
     </nav>
   );
 }
