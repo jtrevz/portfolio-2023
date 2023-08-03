@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio-2023/static/css/main.39cb4e9f.css",
+    "main.js": "/portfolio-2023/static/js/main.9990ca7d.js",
+    "static/js/377.ccfaec47.chunk.js": "/portfolio-2023/static/js/377.ccfaec47.chunk.js",
+    "static/media/green-gradient.png": "/portfolio-2023/static/media/green-gradient.b42c29c5cdfa9aaee4fe.png",
+    "static/media/Portfolio.png": "/portfolio-2023/static/media/Portfolio.30c7934290c7ea293f19.png",
+    "static/media/dark-green.png": "/portfolio-2023/static/media/dark-green.712ec7572a444b400c7f.png",
+    "static/media/businesspic.jpg": "/portfolio-2023/static/media/businesspic.f93049c2c9bd14c30cfe.jpg",
+    "static/media/JTrevizoResume(June)1.pdf": "/portfolio-2023/static/media/JTrevizoResume(June)1.315e90cbd3790631233b.pdf",
+    "static/media/Dream-Avenue.ttf": "/portfolio-2023/static/media/Dream-Avenue.c5cd3fc9b0ec474ff098.ttf",
+    "index.html": "/portfolio-2023/index.html",
+    "main.39cb4e9f.css.map": "/portfolio-2023/static/css/main.39cb4e9f.css.map",
+    "main.9990ca7d.js.map": "/portfolio-2023/static/js/main.9990ca7d.js.map",
+    "377.ccfaec47.chunk.js.map": "/portfolio-2023/static/js/377.ccfaec47.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39cb4e9f.css",
+    "static/js/main.9990ca7d.js"
+  ]
+}
