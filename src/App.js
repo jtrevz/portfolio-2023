@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <ParallaxProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/about" element={<About />} />
