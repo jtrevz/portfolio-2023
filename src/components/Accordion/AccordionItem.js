@@ -5,7 +5,15 @@ import { useSpring, animated } from "react-spring";
 
 import "./styles.css";
 
-export default function AccordionItem({ name, type, description, tech }) {
+export default function AccordionItem({
+  name,
+  type,
+  image,
+  description,
+  tech,
+  github,
+  liveSite,
+}) {
   const [active, setActive] = useState(false);
 
   const openAnimation = useSpring({
@@ -13,7 +21,6 @@ export default function AccordionItem({ name, type, description, tech }) {
     to: { opacity: "1", maxHeight: active ? "400px" : "70px" },
     config: { duration: "300" },
   });
-
   const iconAnimation = useSpring({
     from: {
       transform: "rotate(0deg)",
@@ -49,23 +56,29 @@ export default function AccordionItem({ name, type, description, tech }) {
       <div className="accordion-desc container-fluid px-0 mt-3">
         <div className="d-flex flex-column-reverse flex-md-row">
           <div className="col-12 col-md-7 desc-text">{description}</div>
-          <div className="col-12 col-md-3">picture</div>
+          <div className="col-12 col-md-5 ps-md-3 mb-3 mb-sm-0">
+            <img src={image} className="project-img pb-sm-3" alt="" />
+          </div>
         </div>
-        <div className="d-flex flex-column flex-md-row pt-3">
-          <div className="col-12 col-md-7 desc-text">{tech}</div>
-          <div className="col d-flex flex-row justify-content-end px-2 pt-3 pt-md-0">
-            <div className="px-2 site-links">
-              Github{" "}
-              <span>
-                <ArrowUpRight />
-              </span>
-            </div>
-            <div className="px-2 site-links">
-              Live Site{" "}
-              <span>
-                <ArrowUpRight />
-              </span>
-            </div>
+        <div className="d-flex flex-column flex-sm-row pt-3">
+          <div className="col-12 col-sm-6 desc-text">{tech}</div>
+          <div className="col-12 col-sm-6 d-flex flex-row justify-content-end align-items-md-end px-2 pt-3 pt-sm-0">
+            <a href={github} rel="noreferrer" target="_blank">
+              <div className="px-2 site-links">
+                Github{" "}
+                <span>
+                  <ArrowUpRight />
+                </span>
+              </div>
+            </a>
+            <a href={liveSite} rel="noreferrer" target="_blank">
+              <div className="px-2 site-links">
+                Live Site{" "}
+                <span>
+                  <ArrowUpRight />
+                </span>
+              </div>
+            </a>
           </div>
         </div>
       </div>

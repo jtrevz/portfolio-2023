@@ -33,7 +33,7 @@
 }
 
 .desc-text {
-  font-size: 2.4vw;
+  /* font-size: 14px; */
   font-weight: 100;
 }
 
@@ -43,13 +43,33 @@
 
 .site-links {
   font-family: "Tenor Sans";
-  font-size: 1.5vw;
+  /* font-size: 13px; */
   color: var(--darkyellow);
+}
+
+.project-img {
+  width: 85%;
+  margin: auto;
+  display: block;
 }
 
 .chevron-icon {
   transition: 0.2s ease-in-out;
   transform-origin: center;
+}
+
+@media screen and (min-width: 425px) and (max-width: 510px) {
+  .project-img {
+    width: 70% !important;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 510px) and (max-width: 768px) {
+  .project-img {
+    width: 60% !important;
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -68,6 +88,13 @@
   .desc-text {
     font-size: 1rem;
   }
+  .project-img {
+    width: 100% !important;
+    margin: auto;
+  }
+  .site-links {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -77,11 +104,11 @@
   }
 
   .desc-text {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .site-links {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .desc {
