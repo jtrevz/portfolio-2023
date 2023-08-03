@@ -41,7 +41,7 @@ export default function AccordionItem({
         className="accordion-name-box d-flex flex-row align-items-center"
         onClick={() => setActive(!active)}
       >
-        <div className="col accordion-name">{name}</div>
+        <div className="col-7 accordion-name">{name}</div>
         <div className="col type desc">{type}</div>
         <div className="col-1">
           <animated.i

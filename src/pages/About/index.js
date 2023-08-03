@@ -10,7 +10,7 @@ import "./styles.css";
 export default function About() {
   const navigate = useNavigate();
   return (
-    <Parallax id="about" pages={window.innerWidth < 768 ? 3.8 : 2}>
+    <Parallax id="about" pages={window.innerWidth < 768 ? 3.8 : 2.4}>
       <ParallaxLayer factor={0.5}>
         <Container fluid>
           <HomeButton />

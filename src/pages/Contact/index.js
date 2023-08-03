@@ -65,7 +65,7 @@ export default function Contact() {
         </Col>
       </Row>
       <Row className="bottom p-5 pe-sm-3 p-md-5 mb-5 mx-xxl-3 d-flex w-100 justify-content-between">
-        <Col className="social-groups col-12 col-sm-4 ps-sm-0 py-3">
+        <Col className="social-groups col-12 col-sm-4 ps-sm-0 py-1 py-md-3">
           <h4 className="m-0">Email</h4>
           <h5 className="soc-links">
             <a href="mailto:jennytrevizo18@gmail.com">
@@ -73,17 +73,17 @@ export default function Contact() {
             </a>
           </h5>
         </Col>
-        <Col className="social-groups col-12 col-sm-3 py-3">
+        <Col className="social-groups col-12 col-sm-3 py-1 py-md-3">
           <h4 className="m-0">Phone</h4>
           <h5 className="soc-links">
             <a href="tel:+17133825761">713-382-5761</a>
           </h5>
         </Col>
-        <Col className="social-groups col-12 col-sm-3 pt-3">
+        <Col className="social-groups col-12 col-sm-3 pt-1 pt-md-33">
           <h4 className="m-0">Socials</h4>
-          <h5 className="soc-links">
+          <h5 className="soc-links pt-3 pt-sm-0">
             <a
-              className="pe-2 pe-xxl-3"
+              className="pe-4 pe-sm-2 pe-xxl-3"
               href="https://github.com/jtrevz"
               rel="noreferrer"
               target="_blank"
@@ -93,7 +93,7 @@ export default function Contact() {
               </span>
             </a>
             <a
-              className="px-2 px-xxl-3 "
+              className="px-4 px-sm-2 px-xxl-3 "
               href="https://www.linkedin.com/in/jennifertrevizo/"
               rel="noreferrer"
               target="_blank"
@@ -103,7 +103,7 @@ export default function Contact() {
               </span>
             </a>
             <a
-              className="px-2 px-xxl-3"
+              className="px-4 px-sm-2  px-xxl-3"
               href="https://www.pinterest.com/jennytrevizo/"
               rel="noreferrer"
               target="_blank"
