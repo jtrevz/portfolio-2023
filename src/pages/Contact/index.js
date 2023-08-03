@@ -82,7 +82,12 @@ export default function Contact() {
         <Col className="social-groups col-12 col-sm-3 pt-3">
           <h4 className="m-0">Socials</h4>
           <h5 className="soc-links">
-            <a className="pe-2 pe-xxl-3" href="https://github.com/jtrevz">
+            <a
+              className="pe-2 pe-xxl-3"
+              href="https://github.com/jtrevz"
+              rel="noreferrer"
+              target="_blank"
+            >
               <span>
                 <Github size={20} />
               </span>
@@ -90,6 +95,8 @@ export default function Contact() {
             <a
               className="px-2 px-xxl-3"
               href="https://www.linkedin.com/in/jennifertrevizo/"
+              rel="noreferrer"
+              target="_blank"
             >
               <span>
                 <Linkedin size={20} />
@@ -98,6 +105,8 @@ export default function Contact() {
             <a
               className="px-2 px-xxl-3"
               href="https://www.pinterest.com/jennytrevizo/"
+              rel="noreferrer"
+              target="_blank"
             >
               <span>
                 <Pinterest size={20} />
