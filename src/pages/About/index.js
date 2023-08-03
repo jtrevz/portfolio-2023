@@ -1,5 +1,6 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import Profile from "../../assets/images/businesspic.jpg";
 import { useNavigate } from "react-router-dom";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import resume from "../../assets/info/JTrevizoResume(June)1.pdf";
@@ -9,7 +10,7 @@ import "./styles.css";
 export default function About() {
   const navigate = useNavigate();
   return (
-    <Parallax id="about" pages={2.5}>
+    <Parallax id="about" pages={window.innerWidth < 768 ? 3.8 : 2}>
       <ParallaxLayer factor={0.5}>
         <Container fluid>
           <HomeButton />
@@ -18,8 +19,8 @@ export default function About() {
               {" "}
               I'm Jenny Trevizo.
             </h2>
-            <Col className="h-100 col-12 col-md-4 col-xl-5 order-md-2 m-3 d-flex justify-content-end">
-              PICTURE
+            <Col className="h-100 col-12 col-md-4 col-xl-5 order-md-2 m-3 d-flex justify-content-end py-3 py-md-5">
+              <img src={Profile} className="w-100 py-md-5" alt="" />
             </Col>
             <Col className="d-flex flex-column mx-0 mx-sm-3">
               <h2 className="about-header d-none d-md-block mb-3">
@@ -49,7 +50,11 @@ export default function About() {
           </Row>
         </Container>
       </ParallaxLayer>
-      <ParallaxLayer offset={1} speed={0.5} factor={1.5}>
+      <ParallaxLayer
+        offset={window.innerWidth < 768 ? 1.9 : 1.3}
+        speed={0.5}
+        factor={1.5}
+      >
         <Container fluid className="p-md-5 p-3">
           <Row className="mt-md-5 my-3">
             <h2 className="about-header px-md-5 pb-2">Experience</h2>

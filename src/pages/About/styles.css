@@ -40,6 +40,11 @@
   text-decoration: none;
 }
 
+img {
+  max-width: 400px;
+  margin: auto;
+}
+
 .under {
   text-decoration: none !important;
 }
@@ -79,6 +84,12 @@ p {
   }
   .about-text {
     line-height: 1.8;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .exp {
+    margin-top: 400px !important;
   }
 }
 
