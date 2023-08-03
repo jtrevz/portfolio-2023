@@ -36,6 +36,13 @@
   font-family: "Tenor Sans" !important;
   text-transform: uppercase;
 }
+.contact-button {
+  text-decoration: none;
+}
+
+.under {
+  text-decoration: none !important;
+}
 
 .profession-titles {
   font-family: "Tenor Sans";

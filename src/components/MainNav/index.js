@@ -13,9 +13,6 @@ export default function MainNav() {
         <Link to="/work" className="nav-link px-2">
           WORK
         </Link>
-        <Link to="/resume" className="nav-link px-2">
-          RESUME
-        </Link>
 
         <a
           href={resume}
@@ -25,6 +22,9 @@ export default function MainNav() {
         >
           RESUME
         </a>
+        <Link to="/contact" className="nav-link px-2">
+          CONTACT
+        </Link>
       </nav>
     </div>
   );

@@ -1,10 +1,13 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import { useNavigate } from "react-router-dom";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import resume from "../../assets/info/JTrevizoResume(June)1.pdf";
 import HomeButton from "../../components/HomeButton";
 import "./styles.css";
 
 export default function About() {
+  const navigate = useNavigate();
   return (
     <Parallax id="about" pages={2.5}>
       <ParallaxLayer factor={0.5}>
@@ -36,7 +39,10 @@ export default function About() {
                 focusing on efficient code and creating solutions that align
                 with clients' goals.
               </p>
-              <Button className="d-block contact-button btn-warning align-self-md-end mt-2">
+              <Button
+                onClick={() => navigate("/contact", { replace: true })}
+                className="d-block contact-button btn-warning align-self-md-end mt-2"
+              >
                 Contact
               </Button>
             </Col>
@@ -139,7 +145,12 @@ export default function About() {
                   </Col>
                 </Row>
                 <Row className="d-flex justify-content-end">
-                  <Button className="d-block btn-warning resume-button my-3 mx-md-4">
+                  <Button
+                    className="d-block btn-warning resume-button my-3 mx-md-4"
+                    href={resume}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     Resume
                   </Button>
                 </Row>
