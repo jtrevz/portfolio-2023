@@ -58,6 +58,10 @@
   transform-origin: center;
 }
 
+.lin {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 425px) and (max-width: 510px) {
   .project-img {
     width: 70% !important;

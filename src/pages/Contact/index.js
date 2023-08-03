@@ -93,7 +93,7 @@ export default function Contact() {
               </span>
             </a>
             <a
-              className="px-2 px-xxl-3"
+              className="px-2 px-xxl-3 "
               href="https://www.linkedin.com/in/jennifertrevizo/"
               rel="noreferrer"
               target="_blank"

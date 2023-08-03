@@ -63,7 +63,7 @@ export default function AccordionItem({
         <div className="d-flex flex-column flex-sm-row pt-3">
           <div className="col-12 col-sm-6 desc-text">{tech}</div>
           <div className="col-12 col-sm-6 d-flex flex-row justify-content-end align-items-md-end px-2 pt-3 pt-sm-0">
-            <a href={github} rel="noreferrer" target="_blank">
+            <a href={github} rel="noreferrer" target="_blank" className="lin">
               <div className="px-2 site-links">
                 Github{" "}
                 <span>
@@ -71,7 +71,7 @@ export default function AccordionItem({
                 </span>
               </div>
             </a>
-            <a href={liveSite} rel="noreferrer" target="_blank">
+            <a href={liveSite} rel="noreferrer" target="_blank" className="lin">
               <div className="px-2 site-links">
                 Live Site{" "}
                 <span>
