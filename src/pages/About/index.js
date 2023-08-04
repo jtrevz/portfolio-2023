@@ -27,17 +27,15 @@ export default function About() {
                 I'm Jenny Trevizo.
               </h2>
               <p className="about-text">
-                I've always been drawn to math, puzzles, and riddles, enjoying
-                the challenge of solving problems and understanding how things
-                work. During the pandemic, I revisited HTML and CSS, but it was
-                when I started working with JavaScript that I felt like I found
-                the missing piece of a puzzle, leading me to become a developer.
-                <br /> <br />
-                After self-taught projects and a development bootcamp, I am now
-                a full stack developer. I find excitement in constantly learning
-                and expanding my skillset. My experience with clients taught me
-                to build strong relationships and be a well-rounded developer,
-                focusing on efficient code and creating solutions that align
+                I’m a Full Stack Developer based in Houston, Texas. After a lot
+                of self-taught small projects and a grueling development
+                bootcamp, I can now say I am a full stack developer. I am
+                excited to be part of an industry where I'm constantly learning
+                and adding to my skillset. My past experience working with
+                clients has taught me the ability to build strong relationships
+                clients and I believe that has shaped me to be a well-rounded
+                developer who not only writes efficient code but also
+                understands the bigger picture of creating solutions that align
                 with clients' goals.
               </p>
               <Button
@@ -78,13 +76,15 @@ export default function About() {
                   <Col></Col>
                   <Col className="col-8">
                     <p>
-                      This past year, I have been building my career as a
-                      freelance makeup artist. I have earned a large client base
-                      from my reputation of being artistic and professional. I
-                      have delivered an assortment of looks for formal events
-                      such as weddings and corporate celebrations. Creative
-                      agencies and photographers have also worked with me as a
-                      makeup artist for their photo shoots.{" "}
+                      Freelance web developer with a focus on serving the
+                      service industry. Proficient in front-end and back-end
+                      programming, including HTML, CSS, JavaScript, and React.
+                      Specializing in creating user-friendly and visually
+                      appealing websites tailored to the unique needs of
+                      service-based businesses. A collaborative and adaptable
+                      professional, dedicated to understanding clients' visions
+                      and delivering innovative digital solutions that exceed
+                      expectations.{" "}
                     </p>
                   </Col>
                 </Row>
@@ -102,13 +102,18 @@ export default function About() {
                   <Col></Col>
                   <Col className="col-8">
                     <p>
-                      This past year, I have been building my career as a
-                      freelance makeup artist. I have earned a large client base
-                      from my reputation of being artistic and professional. I
-                      have delivered an assortment of looks for formal events
-                      such as weddings and corporate celebrations. Creative
-                      agencies and photographers have also worked with me as a
-                      makeup artist for their photo shoots.{" "}
+                      Counseled students learning front and back end programming
+                      languages and technologies including: Javascript, HTML,
+                      CSS, React, MongoDB, MySQL, Node, Express, GraphQL.
+                      Leveraged my expertise to research and resolve complex
+                      technical issues, enabling students to gain a deeper
+                      understanding of programming concepts and techniques.
+                      Provided comprehensive feedback on student code, offering
+                      personalized guidance to troubleshoot errors and optimize
+                      performance. Fostered a culture of excellence and
+                      efficiency by promoting best practices and encouraging
+                      students to develop their skills through continuous
+                      learning and practice.{" "}
                     </p>
                   </Col>
                 </Row>
