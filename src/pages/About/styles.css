@@ -6,7 +6,7 @@
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover !important;
-  background-image: url(../../assets/images/backgrounds/jennypic.jpg);
+  background-image: url("../../assets/images/backgrounds/PortfolioSMALL.jpeg");
 }
 
 @keyframes backgrounds-about {
