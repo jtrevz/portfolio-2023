@@ -23,7 +23,7 @@ export default function Landing() {
   return (
     <div id="landing">
       <Container fluid className="w-100 h-100">
-        <Row className="w-100 container-fluid">
+        <Row className="w-100 container-fluid wait-show">
           <Col className="oval-container">
             {circleAnimation().map((oval, i) => (
               <div
@@ -40,7 +40,7 @@ export default function Landing() {
           </Col>
           <Col></Col>
         </Row>
-        <Row>
+        <Row className="wait-show">
           <Offcanvas
             className="offcanvas-end w-50 nav-back px-0 pt-2 d-lg-none"
             placement="end"
@@ -78,7 +78,7 @@ export default function Landing() {
         </Row>
         <Container
           fluid
-          className="name-container d-flex flex-column align-items-end main-container justify-content-end w-100 h-75 px-2 px-lg-5"
+          className="wait-show name-container d-flex flex-column align-items-end main-container justify-content-end w-100 h-75 px-2 px-lg-5"
         >
           <div className="px-4">
             <h4 className="text-end profession">

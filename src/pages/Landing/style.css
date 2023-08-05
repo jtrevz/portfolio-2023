@@ -7,6 +7,40 @@
   background-position: center bottom;
 }
 
+#landing {
+  animation-name: backgrounds;
+  animation-duration: s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  min-height: 100vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+@keyframes backgrounds {
+  0% {
+    background-image: url("../../assets/images/backgrounds/Portfoliosm.jpeg");
+  }
+  100% {
+    background-image: url("../../assets/images/backgrounds/green-gradient\(s\).jpg");
+  }
+}
+
+@keyframes fade-text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.wait-show {
+  animation: fade-text 5s;
+}
+
 /* NAV*/
 
 .nav-back {
