@@ -1,8 +1,21 @@
 #about {
-  background-image: url(../../assets/images/backgrounds/PortfolioSMALL.jpeg);
+  animation-name: backgrounds-about;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover !important;
+  background-image: url(../../assets/images/backgrounds/PortfolioSMALL.jpeg);
+}
+
+@keyframes backgrounds-about {
+  0% {
+    background-image: url("../../assets/images/backgrounds/about-init.jpg");
+  }
+  100% {
+    background-image: url("../../assets/images/backgrounds/PortfolioSMALL.jpeg");
+  }
 }
 
 .home-link {

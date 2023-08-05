@@ -1,5 +1,5 @@
 #work {
-  animation-name: backgrounds-about;
+  animation-name: backgrounds-work;
   animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: 1;
@@ -11,7 +11,7 @@
   background-image: url("../../assets/images/backgrounds/dark-green.jpg");
 }
 
-@keyframes backgrounds-about {
+@keyframes backgrounds-work {
   0% {
     background-image: url("../../assets/images/backgrounds/dGreen.jpg");
   }
