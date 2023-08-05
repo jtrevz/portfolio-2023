@@ -1,0 +1,157 @@
+/* #landing {
+  background-image: url("../../assets/images/backgrounds/green-gradient\(s\).jpg");
+  min-height: 100vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+} */
+
+#landing {
+  -webkit-animation-name: backgrounds;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  min-height: 100vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+@keyframes backgrounds {
+  0% {
+    background-image: url("../../assets/images/backgrounds/Portfoliosm.jpeg");
+  }
+  100% {
+    background-image: url("../../assets/images/backgrounds/green-gradient\(s\).jpg");
+  }
+}
+
+/* NAV*/
+
+.nav-back {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.nav-btn {
+  color: var(--yellow) !important;
+}
+
+.offcanvas-backdrop {
+  opacity: 0 !important;
+}
+
+/* Oval Animations */
+.oval-container {
+  margin-top: -40px;
+  margin-left: -50px;
+}
+
+/* MAIN */
+
+.hide {
+  visibility: hidden;
+}
+
+.name-container {
+  min-height: 75vh;
+}
+
+.profession {
+  font-family: "Tenor Sans";
+  font-size: large;
+  text-transform: uppercase;
+}
+
+.full-name h1 {
+  font-family: "Dream Avenue";
+  font-size: 8.5vw !important;
+  color: #cbb768;
+  text-transform: uppercase;
+}
+
+/* Animations */
+
+.oval {
+  border-radius: 50%;
+  transform: rotate(-15deg);
+  position: absolute;
+  background-color: none;
+  border: 1px solid #cbb768;
+  margin-bottom: 10px;
+  opacity: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .profession {
+    font-size: medium;
+  }
+}
+
+@keyframes appearAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%) translateX(-50%);
+    transform: rotate(-90deg);
+  }
+  25% {
+    opacity: 0.25;
+    transform: rotate(20deg);
+  }
+  50% {
+    opacity: 0.5;
+    transform: rotate(-45deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-20deg);
+  }
+}
+
+@keyframes appearAnimationMid {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%) translateX(-50%);
+    transform: rotate(-90deg);
+  }
+  25% {
+    opacity: 0.25;
+    transform: rotate(-20deg);
+  }
+  50% {
+    opacity: 0.5;
+    transform: rotate(-45deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-9deg);
+  }
+}
+
+@keyframes appearAnimationUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%) translateX(-50%);
+    transform: rotate(-90deg);
+  }
+  25% {
+    opacity: 0.25;
+    transform: rotate(-20deg);
+  }
+  50% {
+    opacity: 0.5;
+    transform: rotate(5deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-45deg);
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #menu {
+    margin-left: -3vw !important;
+  }
+}
