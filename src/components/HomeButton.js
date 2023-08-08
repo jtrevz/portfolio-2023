@@ -5,7 +5,7 @@ import { ArrowUpRight } from "react-bootstrap-icons";
 
 export default function HomeButton() {
   return (
-    <Row className="f-row d-flex justify-content-end align-items-center pt-2 pt-4 p-sm-4 mb-5 mb-sm-0">
+    <Row className="wait-show f-row d-flex justify-content-end align-items-center pt-2 pt-4 p-sm-4 mb-5 mb-sm-0">
       <Link className="text-end home-link" to="/">
         Home
         <span className="p-1 p-sm-2">
