@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import Profile from "../../assets/images/businesspic.jpg";
+import Profile from "../../assets/images/backgrounds/jennypic.jpg";
 import { useNavigate } from "react-router-dom";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import resume from "../../assets/info/JTrevizoResume(June)1.pdf";
@@ -12,7 +12,7 @@ export default function About() {
   return (
     <Parallax id="about" pages={window.innerWidth < 768 ? 3.8 : 2.4}>
       <ParallaxLayer factor={0.5}>
-        <Container fluid>
+        <Container fluid className="wait-show">
           <HomeButton />
           <Row className="d-flex justify-content-center align-items-end mx-sm-5 mx-3 about-content">
             <h2 className="about-header d-block d-md-none">
@@ -53,7 +53,7 @@ export default function About() {
         speed={0.5}
         factor={1.5}
       >
-        <Container fluid className="p-md-5 p-3">
+        <Container fluid className="p-md-5 p-3 wait-show">
           <Row className="mt-md-5 my-3">
             <h2 className="about-header px-md-5 pb-2">Experience</h2>
           </Row>
