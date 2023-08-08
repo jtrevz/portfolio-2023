@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import Profile from "../../assets/images/backgrounds/jennypic.jpg";
+import Profile from "../../assets/images/backgrounds/jennypic.jpeg";
 import { useNavigate } from "react-router-dom";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import resume from "../../assets/info/JTrevizoResume(June)1.pdf";

@@ -6,7 +6,6 @@
   background-size: cover;
   background-position: center bottom;
 }
-
 #landing {
   animation-name: backgrounds;
   animation-duration: 5s;
@@ -40,7 +39,6 @@
 .wait-show {
   animation: fade-text 5s;
 }
-
 /* NAV*/
 
 .nav-back {
