@@ -71,14 +71,23 @@ export default function AccordionItem({
                 </span>
               </div>
             </a>
-            <a href={liveSite} rel="noreferrer" target="_blank" className="lin">
-              <div className="px-2 site-links">
-                Live Site{" "}
-                <span>
-                  <ArrowUpRight />
-                </span>
-              </div>
-            </a>
+            {liveSite && liveSite.length > 0 ? (
+              <a
+                href={liveSite}
+                rel="noreferrer"
+                target="_blank"
+                className="lin"
+              >
+                <div className="px-2 site-links">
+                  Live Site{" "}
+                  <span>
+                    <ArrowUpRight />
+                  </span>
+                </div>
+              </a>
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </div>
