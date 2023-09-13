@@ -8,6 +8,7 @@
   font-family: "Tenor Sans";
   text-transform: uppercase;
   font-size: 19px !important;
+  /* max-height: 38px; */
 }
 
 .accordion-name-box:hover {
@@ -98,6 +99,20 @@
   }
   .site-links {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .accordion-name {
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1060px) {
+  .adjusted-text {
+    line-height: 25px;
+    font-size: 2.5vw !important;
+    margin-top: -5px;
   }
 }
 

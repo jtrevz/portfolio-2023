@@ -1,5 +1,6 @@
 const ProjectData = [
   {
+    id: 0,
     name: "Studious",
     type: "Personal Project",
     image: "https://i.imgur.com/2WkSqxE.jpg",
@@ -10,6 +11,17 @@ const ProjectData = [
     liveSite: "https://studious-2022.herokuapp.com",
   },
   {
+    id: 1,
+    name: "CSV-JSON Converter",
+    type: "Personal Project",
+    image: "",
+    description:
+      "A Node.js command-line tool that allows you to convert CSV files into JSON format.",
+    tech: "Node, FS, Inquirer",
+    github: "https://github.com/jtrevz/CSV-JSON-Converter/",
+  },
+  {
+    id: 2,
     name: "Job Search",
     type: "In Progress",
     image: "",
@@ -19,6 +31,7 @@ const ProjectData = [
     github: "https://github.com/jtrevz/JobSearch",
   },
   {
+    id: 3,
     name: "E-Commerce Backend",
     type: "Bootcamp Assignment",
     image: "",
@@ -28,6 +41,7 @@ const ProjectData = [
     github: "https://github.com/jtrevz/E-Commerce-Backend",
   },
   {
+    id: 4,
     name: "Tripster",
     type: "Group Project",
     image: "https://i.imgur.com/CROk1lc.png",
@@ -38,6 +52,7 @@ const ProjectData = [
     liveSite: "https://tripster2021.herokuapp.com/",
   },
   {
+    id: 5,
     name: "Barb Quiz",
     type: "Bootcamp Assignment",
     image:
