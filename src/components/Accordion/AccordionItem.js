@@ -34,7 +34,11 @@ export default function AccordionItem({
 
   return (
     <animated.div
-      className="accordion-item border-top border-bottom py-md-3 py-4 px-1"
+      className={
+        id === 0
+          ? "accordion-item border-top border-bottom py-md-3 py-4 px-1"
+          : "accordion-item border-bottom py-md-3 py-4 px-1"
+      }
       style={openAnimation}
       key={name}
     >
