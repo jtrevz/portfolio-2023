@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import resume from "../../assets/info/JTrevizoResume(June)1.pdf";
+import resume from "../../assets/info/JTrevizoResume(Sept).pdf";
 import "./styles.css";
 
 export default function MainNav() {
