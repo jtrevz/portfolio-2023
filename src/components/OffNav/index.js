@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import resume from "../../assets/info/JTrevizoResume(Sept).pdf";
+import resume from "../../assets/info/JTrevizoResume(Sept)2.pdf";
 import "./style.css";
 
 export default function OffNav() {
