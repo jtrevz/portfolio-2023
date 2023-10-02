@@ -5,3 +5,48 @@
   background-repeat: no-repeat;
   background-size: cover;
 } */
+#auto-form-title {
+  width: 570px;
+}
+
+.contract-container {
+  width: 600px;
+  padding-top: 90px !important;
+}
+
+.sub-heading-a {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+.sub-headings-b {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.sub-box {
+  max-width: 480px;
+}
+
+.bricolage {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 500;
+  font-size: 85px;
+  letter-spacing: -1px;
+}
+
+@media screen and (max-width: 768px) {
+  #auto-form-title {
+    width: 100%;
+  }
+  .bricolage {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contract-container {
+    padding-top: 120px !important;
+  }
+}
