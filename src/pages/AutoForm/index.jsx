@@ -1,7 +1,6 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import { Container, Row, Col, Button } from "react-bootstrap";
-
+import { Container, Row, Col } from "react-bootstrap";
 import "./styles.css";
 
 export default function AutoForm() {
