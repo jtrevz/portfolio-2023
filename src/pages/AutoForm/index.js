@@ -1,6 +1,5 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import { useScroll, animated } from "@react-spring/web";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
 import contract from "../../assets/images/contractSample.png";
