@@ -5,24 +5,31 @@
   background-repeat: no-repeat;
   background-size: cover;
 } */
-#auto-form-title {
+/* #auto-form-title {
   width: 570px;
-}
+} */
 
 .contract-container {
-  width: 600px;
-  padding-top: 90px !important;
+  width: 400px;
+}
+.contract-container-home {
+  width: 800px;
 }
 
 .sub-heading-a {
-  font-family: "Bricolage Grotesque", sans-serif;
-  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
   font-size: 50px;
 }
 .sub-headings-b {
   font-family: "Inter", sans-serif;
   font-size: 40px;
   font-weight: 300;
+}
+.sub-headings-c {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 200;
 }
 
 .sub-box {
@@ -32,7 +39,7 @@
 .bricolage {
   font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 500;
-  font-size: 85px;
+  font-size: 75px;
   letter-spacing: -1px;
 }
 
@@ -47,6 +54,23 @@
 
 @media screen and (min-width: 768px) {
   .contract-container {
-    padding-top: 120px !important;
+    padding-top: 140px !important;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .sub-box {
+    max-width: 200px;
+  }
+  .bricolage {
+    font-size: 50px;
+  }
+  .sub-heading-a {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .sub-headings-b {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
   }
 }
