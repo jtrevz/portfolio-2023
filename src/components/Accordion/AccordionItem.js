@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { ArrowUpRight } from "react-bootstrap-icons";
 import { ChevronDown } from "react-bootstrap-icons";
 import { useSpring, animated } from "react-spring";
+import { Link } from "react-router-dom";
 
 import "./styles.css";
 
@@ -14,6 +15,7 @@ export default function AccordionItem({
   tech,
   github,
   liveSite,
+  sidelink,
 }) {
   const [active, setActive] = useState(false);
 
@@ -76,14 +78,18 @@ export default function AccordionItem({
         <div className="d-flex flex-column flex-sm-row pt-3">
           <div className="col-12 col-sm-6 desc-text">{tech}</div>
           <div className="col-12 col-sm-6 d-flex flex-row justify-content-end align-items-md-end px-2 pt-3 pt-sm-0">
-            <a href={github} rel="noreferrer" target="_blank" className="lin">
-              <div className="px-2 site-links">
-                Github{" "}
-                <span>
-                  <ArrowUpRight />
-                </span>
-              </div>
-            </a>
+            {github && github.length ? (
+              <a href={github} rel="noreferrer" target="_blank" className="lin">
+                <div className="px-2 site-links">
+                  Github{" "}
+                  <span>
+                    <ArrowUpRight />
+                  </span>
+                </div>
+              </a>
+            ) : (
+              ""
+            )}
             {liveSite && liveSite.length > 0 ? (
               <a
                 href={liveSite}
@@ -98,6 +104,16 @@ export default function AccordionItem({
                   </span>
                 </div>
               </a>
+            ) : (
+              ""
+            )}
+            {sidelink ? (
+              <Link className="lin px-2 site-links" to="/autoform">
+                Learn More{" "}
+                <span>
+                  <ArrowUpRight />
+                </span>
+              </Link>
             ) : (
               ""
             )}

@@ -22,6 +22,15 @@ const ProjectData = [
   },
   {
     id: 2,
+    name: "AutoForm",
+    type: "Client Project",
+    image: "https://i.imgur.com/1As2LHO.png",
+    description:
+      "Application that facilitates form creation by autocompleting client estimate inputs and generating form PDFs",
+    sidelink: "/autoform",
+  },
+  {
+    id: 3,
     name: "Job Search",
     type: "In Progress",
     image: "",
@@ -31,7 +40,7 @@ const ProjectData = [
     github: "https://github.com/jtrevz/JobSearch",
   },
   {
-    id: 3,
+    id: 4,
     name: "E-Commerce Backend",
     type: "Bootcamp Assignment",
     image: "",
@@ -41,7 +50,7 @@ const ProjectData = [
     github: "https://github.com/jtrevz/E-Commerce-Backend",
   },
   {
-    id: 4,
+    id: 5,
     name: "Tripster",
     type: "Group Project",
     image: "https://i.imgur.com/CROk1lc.png",
@@ -52,7 +61,7 @@ const ProjectData = [
     liveSite: "https://tripster2021.herokuapp.com/",
   },
   {
-    id: 5,
+    id: 6,
     name: "Barb Quiz",
     type: "Bootcamp Assignment",
     image:
