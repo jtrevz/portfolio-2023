@@ -10,7 +10,7 @@ export default function Work() {
   return (
     <Parallax id="work" pages={2}>
       <ParallaxLayer factor={1.5} speed={0.5}>
-        <Container fluid>
+        <Container fluid className="wait-work-show">
           <HomeButton />
           <Row className="wait-show d-flex justify-content-start px-5 mb-md-0 mb-5">
             <h2 className="work-title">Work</h2>
