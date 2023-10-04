@@ -1,35 +1,22 @@
-.contract-container {
-  width: 400px;
-}
-.contract-container-home {
-  width: 800px;
+.bricolage {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 500;
+  letter-spacing: -1px;
 }
 
 .sub-heading-a {
   font-family: "Inter", sans-serif;
-  font-weight: 300;
-  font-size: 50px;
+  font-weight: 400;
 }
+
 .sub-headings-b {
   font-family: "Inter", sans-serif;
-  font-size: 40px;
-  font-weight: 300;
+  /* font-weight: 400; */
 }
+
 .sub-headings-c {
   font-family: "Inter", sans-serif;
-  font-size: 30px;
-  font-weight: 200;
-}
-
-.sub-box {
-  max-width: 480px;
-}
-
-.bricolage {
-  font-family: "Bricolage Grotesque", sans-serif;
-  font-weight: 500;
-  font-size: 75px;
-  letter-spacing: -1px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 768px) {
@@ -55,11 +42,71 @@
     font-size: 50px;
   }
   .sub-heading-a {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
   }
   .sub-headings-b {
     font-family: "Inter", sans-serif;
     font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .sub-heading-a {
+    font-size: 43px;
+  }
+  .sub-box {
+    max-width: 390px;
+  }
+  .sub-box-1 {
+    max-width: 330px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .bricolage {
+    font-size: 60px;
+  }
+  .sub-heading-a {
+    font-size: 45px;
+  }
+  .sub-headings-b {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+  }
+  #subC1 {
+    font-family: 14px !important;
+  }
+  .sub-box {
+    max-width: 400px;
+  }
+  .sub-box-1 {
+    max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contract-container {
+    width: 450px;
+  }
+  .contract-container-home {
+    width: 800px;
+  }
+
+  .sub-heading-a {
+    font-size: 50px;
+  }
+  .sub-headings-b {
+    font-size: 40px;
+  }
+  .sub-headings-c {
+    font-size: 30px;
+  }
+
+  .sub-box {
+    max-width: 480px;
+  }
+
+  .bricolage {
+    font-size: 75px;
   }
 }

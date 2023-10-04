@@ -45,23 +45,11 @@ export default function AutoForm() {
           </Row>
         </Container>
       </ParallaxLayer>
-      {/* <ParallaxLayer className="" speed={0.5} offset={0.4} factor={0.3}>
-        <Container fluid>
-          <Row className="d-none d-flex align-content-start justify-content-md-end">
-            <Col xs={12} lg={5} className="">
-              <div className="sub-box">
-                <h2 className="text-center sub-heading-a">
-                  Autocomplete to fascilitate form creation
-                </h2>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </ParallaxLayer> */}
+
       <ParallaxLayer className="" speed={0.5} offset={0.3} factor={0.2}>
         <Container fluid>
           <Row className="d-flex justify-content-end">
-            <Col xs={12} lg={6} className="d-flex justify-content-center">
+            <Col xs={6} lg={6} className="d-flex justify-content-center">
               <div className="sub-box">
                 <h2 className="text-center sub-heading-a ">
                   Autocomplete to fascilitate form creation
@@ -74,12 +62,15 @@ export default function AutoForm() {
       <ParallaxLayer className="" speed={0.4} offset={0.6} factor={0.2}>
         <Container fluid>
           <Row className="d-flex justify-content-md-end">
-            <Col xs={12} lg={6} className="d-flex justify-content-center">
-              <div className="sub-box">
-                <h2 className="text-center  text-secondary  sub-headings-c">
+            <Col xs={6} lg={6} className="d-flex justify-content-center">
+              <div className="sub-box-1 sub-box">
+                <h3
+                  id="subC1"
+                  className="text-center  text-secondary  sub-headings-c"
+                >
                   Built for a client in construction. Allows them to easily
                   create estimate forms without the hassle of having to format.
-                </h2>
+                </h3>
               </div>
             </Col>
           </Row>
@@ -93,7 +84,13 @@ export default function AutoForm() {
       >
         <Container fluid>
           <Row className="d-flex  justify-content-md-end">
-            <Col xs={12} lg={7} className="p-5 d-flex justify-content-center">
+            <Col
+              xs={12}
+              md={6}
+              xl={6}
+              xxl={7}
+              className="p-5 d-flex justify-content-center"
+            >
               <div className="contract-container">
                 <Image src={cardInput} fluid />
               </div>
@@ -104,8 +101,13 @@ export default function AutoForm() {
 
       <ParallaxLayer className="" speed={0.4} offset={1.8} factor={0.3}>
         <Container fluid>
-          <Row className="d-flex">
-            <Col xs={12} lg={7} className=" d-flex justify-content-center">
+          <Row className="d-flex border">
+            <Col
+              xs={12}
+              md={7}
+              xl={7}
+              className="d-flex justify-content-center border"
+            >
               <div className="sub-box">
                 <h2 className="text-center sub-headings-b">
                   Generates autocomplete options based on past user input
@@ -119,12 +121,12 @@ export default function AutoForm() {
       <ParallaxLayer
         speed={1}
         factor={1}
-        sticky={{ start: 2.8, end: 3.5 }}
+        sticky={{ start: 2.8, end: 3.4 }}
         className="d-flex align-items-md-center contract-parallax align-items-start"
       >
         <Container fluid>
           <Row>
-            <Col xs={7} className="ps-5 d-flex justify-content-center ">
+            <Col xs={6} lg={7} className="ps-5 d-flex justify-content-center ">
               <div className="contract-container-home">
                 <Image src={layout} fluid />
               </div>
@@ -133,10 +135,16 @@ export default function AutoForm() {
           <Row></Row>
         </Container>
       </ParallaxLayer>
-      <ParallaxLayer className="" speed={0.5} offset={3} factor={0.3}>
+      <ParallaxLayer className="" speed={0.35} offset={3.2} factor={0.3}>
         <Container fluid>
           <Row className="d-flex justify-content-md-end">
-            <Col xs={12} lg={6} className="d-flex justify-content-center">
+            <Col
+              xs={6}
+              lg={6}
+              xl={5}
+              xxl={5}
+              className="d-flex justify-content-center"
+            >
               <div className="sub-box">
                 <h2 className="text-center sub-headings-b">
                   Past contracts saved and displayed in home page.
@@ -146,15 +154,21 @@ export default function AutoForm() {
           </Row>
         </Container>
       </ParallaxLayer>
-      <ParallaxLayer className="" speed={0.4} offset={3.2} factor={0.2}>
+      <ParallaxLayer className="" speed={0.3} offset={3.35} factor={0.2}>
         <Container fluid>
           <Row className="d-flex justify-content-md-end">
-            <Col xs={12} lg={6} className="d-flex justify-content-center">
+            <Col
+              xs={6}
+              lg={6}
+              xl={5}
+              xxl={5}
+              className="d-flex justify-content-center"
+            >
               <div className="sub-box">
-                <h2 className="text-center sub-headings-c">
+                <h3 className="text-center sub-headings-c text-secondary">
                   Ability to view, or download contracts directly from home
                   page.
-                </h2>
+                </h3>
               </div>
             </Col>
           </Row>
