@@ -3,7 +3,7 @@ const ProjectData = [
     id: 0,
     name: "Studious",
     type: "Personal Project",
-    image: "https://i.imgur.com/2WkSqxE.jpg",
+    image: "https://i.imgur.com/2WkSqxEm.jpg",
     description:
       "Developed and deployed a front end web application to help users make and study flashcards",
     tech: "React, Express, Node, Firebase",
@@ -24,7 +24,7 @@ const ProjectData = [
     id: 2,
     name: "AutoForm",
     type: "Client Project",
-    image: "https://i.imgur.com/1As2LHO.png",
+    image: "https://i.imgur.com/1As2LHOm.png",
     description:
       "Application that facilitates form creation by autocompleting client estimate inputs and generating form PDFs",
     sidelink: "/autoform",
@@ -53,7 +53,7 @@ const ProjectData = [
     id: 5,
     name: "Tripster",
     type: "Group Project",
-    image: "https://i.imgur.com/CROk1lc.png",
+    image: "https://i.imgur.com/CROk1lcm.png",
     description:
       "Group project application that helps users plan and organize trip details including, events, packing list, etc.",
     tech: "React, Express, Node, MongoDB",
@@ -64,8 +64,7 @@ const ProjectData = [
     id: 6,
     name: "Barb Quiz",
     type: "Bootcamp Assignment",
-    image:
-      "https://user-images.githubusercontent.com/78758382/113085109-d8a09a00-91a4-11eb-9334-495c28bd4210.png",
+    image: "https://i.imgur.com/5j4XTtZm.png",
     description:
       "This quiz tests your knowledge of the very one and only Queen Nicki Minaj. You get points by answering trivia questions right and you get penalized by subtracting seconds from your timer.",
     tech: "HTML, CSS, JS",
