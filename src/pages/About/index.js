@@ -20,7 +20,11 @@ export default function About() {
               I'm Jenny Trevizo.
             </h2>
             <Col className="h-100 col-12 col-md-4 col-xl-5 order-md-2 m-3 d-flex justify-content-end py-3 py-md-5">
-              <img src={Profile} className="w-100 py-md-5" alt="" />
+              <img
+                src="https://i.imgur.com/zDL3AIe.jpg"
+                className="w-100 py-md-5"
+                alt=""
+              />
             </Col>
             <Col className="d-flex flex-column mx-0 mx-sm-3">
               <h2 className="about-header d-none d-md-block mb-3">
