@@ -5,6 +5,7 @@ import Image from "react-bootstrap/Image";
 import contract from "../../assets/images/contractSample.png";
 import cardInput from "../../assets/images/cardInput.png";
 import layout from "../../assets/images/home-page.png";
+import clientImg from "../../assets/images/clientImg.png";
 import "./styles.css";
 
 export default function AutoForm() {
@@ -101,12 +102,12 @@ export default function AutoForm() {
 
       <ParallaxLayer className="" speed={0.4} offset={1.8} factor={0.3}>
         <Container fluid>
-          <Row className="d-flex border">
+          <Row className="d-flex ">
             <Col
               xs={12}
               md={7}
               xl={7}
-              className="d-flex justify-content-center border"
+              className="d-flex justify-content-center"
             >
               <div className="sub-box">
                 <h2 className="text-center sub-headings-b">
@@ -121,7 +122,7 @@ export default function AutoForm() {
       <ParallaxLayer
         speed={1}
         factor={1}
-        sticky={{ start: 2.8, end: 3.4 }}
+        sticky={{ start: 2.8, end: 3.3 }}
         className="d-flex align-items-md-center contract-parallax align-items-start"
       >
         <Container fluid>
@@ -168,6 +169,65 @@ export default function AutoForm() {
                 <h3 className="text-center sub-headings-c text-secondary">
                   Ability to view, or download contracts directly from home
                   page.
+                </h3>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </ParallaxLayer>
+      <ParallaxLayer
+        speed={1}
+        factor={1}
+        sticky={{ start: 3.9, end: 4.2 }}
+        className="d-flex align-items-center contract-parallax"
+      >
+        <Container fluid>
+          <Row className="d-flex  justify-content-md-end">
+            <Col
+              xs={12}
+              md={6}
+              xl={6}
+              xxl={7}
+              className="p-5 d-flex justify-content-center"
+            >
+              <div className="contract-container">
+                <Image src={clientImg} fluid />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </ParallaxLayer>
+
+      <ParallaxLayer className="" speed={0.35} offset={4.5} factor={0.3}>
+        <Container fluid>
+          <Row className="d-flex">
+            <Col
+              xs={12}
+              md={7}
+              xl={7}
+              className="d-flex justify-content-center"
+            >
+              <div className="sub-box">
+                <h2 className="text-center sub-headings-b">
+                  Client contact page stores past clients for future reference.
+                </h2>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </ParallaxLayer>
+      <ParallaxLayer className="" speed={0.3} offset={4.7} factor={0.2}>
+        <Container fluid>
+          <Row className="d-flex">
+            <Col
+              xs={12}
+              md={7}
+              xl={7}
+              className="d-flex justify-content-center"
+            >
+              <div className="sub-box">
+                <h3 className="text-center sub-headings-c text-secondary">
+                  Ability to edit and delete past client information.
                 </h3>
               </div>
             </Col>
