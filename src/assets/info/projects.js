@@ -49,19 +49,9 @@ const ProjectData = [
     tech: "Node, Express, MySQL, Sequelize",
     github: "https://github.com/jtrevz/E-Commerce-Backend",
   },
+
   {
     id: 5,
-    name: "Tripster",
-    type: "Group Project",
-    image: "https://i.imgur.com/CROk1lcm.png",
-    description:
-      "Group project application that helps users plan and organize trip details including, events, packing list, etc.",
-    tech: "React, Express, Node, MongoDB",
-    github: "https://github.com/jtrevz/Tripster",
-    liveSite: "https://tripster2021.herokuapp.com/",
-  },
-  {
-    id: 6,
     name: "Barb Quiz",
     type: "Bootcamp Assignment",
     image: "https://i.imgur.com/5j4XTtZm.png",
